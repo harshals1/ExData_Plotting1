@@ -1,6 +1,5 @@
-#Global Active Power on Y axis
+#Global Active Power 
 #Save data text file in data folder in working directory and name is as household_power_consumption.txt"
-#unzip("data/*****.zip", exdir="data") #for unzip data
 
 DT <- read.csv("./data/household_power_consumption.txt", header=T, sep=';', na.strings="?", 
                       nrows=2075259, check.names=F, stringsAsFactors=F, comment.char="", 
